@@ -1,0 +1,271 @@
+body{
+	max-width: 1280px;
+    min-width: 280px;
+    margin: 0 auto;
+    font-family: Arial;
+    background: #fff;
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
+    margin: 0;
+    padding: 0;
+}
+h1{
+	font-size: 60px;
+	margin: 0 0 30px 0;
+	font-weight: normal;
+}
+h2{
+	font-size: 30px;
+	color: #445161;
+	padding-bottom: 30px;
+}
+p{
+	font-size: 16px;
+	margin: 25px 0;
+}
+header{
+	padding: 50px;
+}
+section{
+	padding: 50px;
+	min-height: 250px;
+	clear: both;
+}
+header{
+	background: #445162;
+	color: #ffffff;
+	min-height: 220px;
+}
+header ul li{
+	font-size: 20px;
+	list-style: none;
+    background: url(images/check_icon.png) no-repeat 0 4px;
+    padding-left: 34px;
+}
+#header-text{
+	float: left;
+}
+#slider{
+	background: #fff;
+	width: 470px;
+	height: 217px;
+	float: right;
+}
+#about{
+	height: 250px
+}
+#about article{
+	float: left;
+    width: 660px;
+}
+#about img{
+	float: right;
+}
+#pluses, #reviews{
+	background: #f5f5f5;
+	min-height: 250px;
+}
+#pluses h2, #gallery h2, #reviews h2, #buyitnow h2{
+	text-align: center;
+}
+#pluses ul li{
+	list-style: none;
+    background: url(images/plus_icon.png) no-repeat 0 4px;
+    padding-left: 40px;
+    width: 45%;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 18px;
+}
+#gallery{
+	min-height: 400px;
+}
+#gallery h3{
+	font-size: 24px;
+	color: #445161;
+}
+#gallery ul li{
+	list-style: none;
+    width: 48%;
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 18px;
+}
+#gallery div {
+	width: 360px;
+    float: right;
+}
+#gallery img{
+	float:left;
+}
+#gallery p{
+	margin:15px 0;
+}
+#reviews{
+	min-height: 366px;
+}
+#reviews figure{
+	width: 48%;
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 18px;
+    margin-left: 0;
+}
+#reviews figure img{
+	float:left;
+}
+#reviews figure figcaption{
+	/*float: right;*/
+	width: 435px;
+	font-style: italic;
+	font-size: 14px;
+	padding: 15px;
+	padding-left: 25px;
+	background: url("images/bg_review.png");
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-left: 85px;
+}
+#reviews figure figcaption span{
+	color: #989898;
+	font-style: normal;
+	display: block;
+	margin-top: 10px;
+}
+#buyitnow{
+	min-height: 550px;
+	margin: 0 auto;
+}
+#buyitnow .catalog{
+	width:300px;
+	background: #445162;
+	float:left;
+	margin: 0 46px;
+	padding-bottom: 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#buyitnow .catalog h3{
+	color:#fff;
+	text-align: center;
+	padding: 20px 0;
+}
+#buyitnow .catalog .price{
+	background: #fff;
+	color: #445162;
+	font-size: 40px;
+	text-align: center;
+	width: 98%;
+	margin: 0 auto;
+}
+#buyitnow .catalog .desc{
+	color: #fff;
+	padding: 15px;
+}
+#buyitnow .catalog .desc li{
+	margin-left: 25px;
+	font-size:14px;
+	line-height: 24px;
+}
+#buyitnow .catalog button{
+	width: 260px;
+	height: 40px;
+	background: #fff;
+	border: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	display: block;
+	margin:0 auto;
+	font-weight: bold;
+	color: #445162;
+}
+#standart{
+	margin-top: 192px !important;
+}
+#premium{
+	margin-top: 96px !important;
+}
+footer h2{
+	color: #fff;
+	text-align: center;
+}
+footer section{
+	min-height: 420px;
+	background: #445162;
+}
+#contact-form{
+	width: 520px;
+	float: left;
+}
+#contact-form input{
+	width:490px;
+	height: 40px;
+	font-size: 16px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	float:left;
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+#contact-form textarea{
+	width: 490px;
+	height: 170px;
+	font-size: 16px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	padding-left: 10px; 
+}
+#contact-form button{
+	width: 140px;
+	height: 40px;
+	background: #fff;
+	border: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	display: block;
+	margin:0 auto;
+	text-transform: uppercase;
+	color: #445162;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+}
+#contacts{
+	width: 520px;
+	float:right;
+	color: #fff;
+}
+#contacts li{
+	list-style: none;
+	padding-left: 30px;
+	padding-top: 10px;
+	height: 30px;
+}
+#contacts li#skype{
+    background: url(images/skype_icon.png) no-repeat 0 4px;
+}
+#contacts li#icq{
+    background: url(images/icq_icon.png) no-repeat 0 4px;
+}
+#contacts li#email{
+    background: url(images/email_icon.png) no-repeat 0 4px;
+}
+#contacts li#phone{
+    background: url(images/phone_icon.png) no-repeat 0 4px;
+}
+#copyright{
+	clear: both;
+	background: #fff;
+	text-align: center;
+	font-size:12px;
+	height: 25px;
+	padding-top: 5px;
+}
